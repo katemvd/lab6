@@ -49,6 +49,7 @@ function randomizeColors(e) {
 }
 
 function myColors(result){
+console.log(result.colors);
 	var colors = result.colors.hex;
 	$('body').css('background-color', colors[0]);
 	$('.thumbnail').css('background-color', colors[1]);
